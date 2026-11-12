@@ -136,3 +136,13 @@ IF(
     'diabetic_encounter_raw(1)'[num_medications] >= 21, 2,
     IF('diabetic_encounter_raw(1)'[num_medications] >= 11, 1, 0)
 )
+```
+## Dashboard Preview
+
+### Dashboard 1: Readmission Overview
+
+![Dashboard 1](Dashboards/dashboard_1.png)
+
+### Dashboard 2: Risk Stratification and Resource Allocation
+
+![Dashboard 2](Dashboards/dashboard_2.png)
